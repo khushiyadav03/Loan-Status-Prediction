@@ -14,22 +14,3 @@ The project uses the `loan_dataset.csv` which contains information about loan ap
 4.  **Model Training**: Split the data into training and testing sets. A Support Vector Machine (SVM) model with a linear kernel is trained on the training data.
 5.  **Model Evaluation**: Evaluate the trained model's performance using accuracy scores on both the training and testing datasets.
 6.  **Predictive System**: Implement a system to take user input for the relevant features and predict the loan eligibility using the trained SVM model.
-
-## Model Performance
-
--   Training Data Accuracy: [Insert Training Accuracy Score Here]
--   Testing Data Accuracy: [Insert Testing Accuracy Score Here]
-
-## How to Use
-
-1.  Clone the repository.
-2.  Ensure you have the necessary libraries installed (pandas, numpy, seaborn, scikit-learn).
-3.  Run the Jupyter Notebook or Python script.
-4.  Use the predictive system section to get loan eligibility predictions by providing the required input.
-
-## Future Improvements
-
-- Explore other machine learning algorithms (e.g., Logistic Regression, Random Forest) to compare performance.
-- Perform more extensive feature engineering.
-- Address the imbalanced nature of the target variable, if any.
-- Implement cross-validation for more robust model evaluation.
